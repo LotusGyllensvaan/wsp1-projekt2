@@ -5,3 +5,26 @@ body {
   font-size: x-large;
   margin: 1em;
 }
+
+#wrapper {
+  margin: 1rem;
+  size: 1000remm7öl;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+#tasks_wrapper {
+  color: red;
+  size: 500px;
+}
+
+#addTask_wrapper {
+  color: green;
+  size: 500px;
+}
+
+#comTasks_wrapper {
+  color: yellowgreen;
+  size: 500px;
+}

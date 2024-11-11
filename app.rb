@@ -4,4 +4,9 @@ class App < Sinatra::Base
         erb(:"index")
     end
 
+    get '/tasks' do
+        @tasks = db.execute('SELECT * FROM tasks')
+        erb(:"tasks/index")
+    end
+
 end
