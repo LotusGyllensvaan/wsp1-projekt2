@@ -5,12 +5,12 @@ class App < Sinatra::Base
 
         @db = SQLite3::Database.new("db/tasks.sqlite")
         @db.results_as_hash = true
-
+        
         return @db
     end
 
     get '/' do
-        erb(:"index")
+        redirect("/tasks")
     end
 
     get '/tasks' do

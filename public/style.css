@@ -1,30 +1,27 @@
 body {
   font-family: sans-serif;
   color: #666;
-  background-color: #f1f1f1;
+  background-color: #4a412a;
   font-size: x-large;
   margin: 1em;
 }
 
-#wrapper {
-  margin: 1rem;
-  size: 1000remm7öl;
-  display: flex;
-  justify-content: space-between;
-  flex: 1;
-}
-
-#tasks_wrapper {
+h1{
   color: red;
-  size: 500px;
 }
 
-#addTask_wrapper {
-  color: green;
-  size: 500px;
+h2{
+  color: red;
 }
 
-#comTasks_wrapper {
-  color: yellowgreen;
-  size: 500px;
+h3{
+  color: goldenrod;
+}
+
+h4{
+  color: blanchedalmond;
+}
+
+h6{
+  color: chocolate;
 }
